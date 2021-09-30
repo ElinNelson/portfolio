@@ -147,7 +147,7 @@
     text-align: center;
 }
 .container:hover{
-    opacity: 0.3;
+    /* opacity: 0.3; */
 }
 .gallery{
     display: flex;
@@ -161,7 +161,7 @@
     margin: 10px;
 }
 .gallery img:hover{
-    /*opacity: 0.3;*/
+    opacity: 0.3;
     transition: .5s ease;
 }
 .gallery img:hover .text{
