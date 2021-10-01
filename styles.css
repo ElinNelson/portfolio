@@ -140,14 +140,10 @@
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.9);
     align-items: center;
-    padding: 20px;
 }
 .container{
     position: relative;
     text-align: center;
-}
-.container:hover{
-    /* opacity: 0.3; */
 }
 .gallery{
     display: flex;
@@ -158,10 +154,10 @@
 .gallery img{
     width: 360px;
     height: 350px;
-    margin: 10px;
+    margin: 20px;
+    padding-top: -00px;
 }
 .gallery img:hover{
-    opacity: 0.3;
     transition: .5s ease;
 }
 .gallery img:hover .text{
@@ -171,6 +167,9 @@
     color: rgb(243, 243, 243);
     font-size: 40px;
     padding: 16px 32px;
+    text-align: center;
+    font-family: century;
+
 }
 /* centered = text properties */
 .centered {
@@ -183,4 +182,41 @@
 }
 .container:hover .centered{
     opacity: 1;
+}
+.container:hover img{
+    opacity: 0.3;
+}
+.container:hover .text {
+  opacity: 1;
+}
+
+/* Scooter */
+#hometwo img{
+    margin-top: 0px;
+
+}
+#hometwo img .text
+{
+    text-align: center;
+}
+.centered2 {
+    transition: 0.3s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text2{
+    text-align: center;
+    color: rgb(243, 243, 243);
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: century;
+}
+.container3 img{
+    width: 360px;
+    height: auto;
+    margin: 20px;
+    padding-top: -00px;
 }
