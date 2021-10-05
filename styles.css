@@ -1,11 +1,11 @@
+/* Navbar */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Navbar */
 .navbar{
+    width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,17 +35,28 @@
     box-shadow: 0 0 10px white;
     margin: 15px;
 }
-/* Navbar icons *
-.fa{
-    margin-left: 1080px;
-  }
-  .fa:hover{
-      opacity: 0.7;
-  }
-  .fa-linkedin{
-    background: #007bb5;
-    color: white;
 
+/* Navbar icons */
+.fa:hover{
+      opacity: 0.7;
+}
+.fa-linkedin-square{
+    color: white;
+    float: right;
+    position: relative;
+    margin-right: 20px;
+}
+.fa-envelope{
+    color: white;
+    float: right;
+    margin-right: 20px;
+}
+.topnav-right {
+    position: fixed;
+    top: 15;
+    left: 10;
+    right: 0;
+}
 
 /* Home Section */
 #home{
@@ -55,9 +66,7 @@
     height: 900px;
     justify-content: center;
     align-items: center;
-    color: white;
     margin-top: -60px;
-
 }
 #home::before{
     content: "";
@@ -70,6 +79,15 @@
     z-index: -1;
     opacity: .8;
 }
+ul.no-bullets{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+  }
 .main{
     display: flex;
     flex-direction: column;
@@ -82,7 +100,7 @@
     font-family: century;
     font-size: 3rem;
     text-align: center;
-    margin: 40px 0px;
+    margin: 150px 0px 50px;
 }
 
 /* About section */
@@ -141,18 +159,9 @@
     z-index: -1;
     opacity: .8;
 }
-/*
-#intro{
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    padding: 10px;
+.container img{
+    border: 5px solid #555;
 }
-#intro h2{
-    font-size: 2rem;
-    margin-bottom: 20px;
-}*/
-
 /* Portfolio section */
 #portfolio{
     display: flex;
@@ -176,7 +185,6 @@
     width: 360px;
     height: 350px;
     margin: 20px;
-    padding-top: -00px;
 }
 .gallery img:hover{
     transition: .5s ease;
@@ -245,7 +253,7 @@
 .container4 img{
     width: 1450px;
     height: auto;
-    margin-top: 1000px;
+    margin-top: 0;
 }
 .text3{
     text-align: center;
