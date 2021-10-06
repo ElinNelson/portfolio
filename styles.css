@@ -78,7 +78,6 @@
     height: 100%;
     width: 100%;
     z-index: -1;
-
 }
 ul.no-bullets{
     list-style-type: none;
@@ -105,7 +104,6 @@ ul.no-bullets{
     text-align: center;
     margin: 50px 0px 50px;
 }
-
 /* About section */
 #about{
     display: flex;
@@ -135,8 +133,8 @@ ul.no-bullets{
 #hometwo{
     /*display: flex;*/
     /*flex-direction: column;*/
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 100%;
+    background-color: rgba(131, 131, 131);
+    height: 100vh;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -167,16 +165,13 @@ ul.no-bullets{
     border: 5px solid #555;
 }
 /* Portfolio section */
-/*
+
 #portfolio{
     display: flex;
     flex-direction: column;
-    background-color: rgba(131, 131, 131, 0.9);
+    background-color: rgba(131, 131, 131);
     align-items: center;
-    height: 800px;
-    margin-top: -60px;
 }
-*/
 .container{
     position: relative;
     text-align: center;
@@ -271,6 +266,12 @@ ul.no-bullets{
     margin: 20px;
     padding-top: -00px;
 }
+.text3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: century;
+    font-size: 20px;
+}
 /* ETISKT MANIFEST */
 .container4 img{
     width: 100%;
@@ -278,11 +279,32 @@ ul.no-bullets{
     margin-top: top;
 }
 .container5{
-    padding-bottom: ;
+    padding-bottom: 50px;
 }
 .container5 img{
-    width: 1000px;
+    width: 600px;
     height: auto;
     margin-top: 50px;
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-margin{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+/* OM MIG */
+.intro{
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+
+/* KOMMANDE */
+.text-kommande{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: century;
+    font-size: 50px;
+    margin-top: 100px;
 }
