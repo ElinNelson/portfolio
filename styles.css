@@ -126,9 +126,10 @@ ul.no-bullets{
     text-align: justify;
     padding: 10px;
 }
-#intro h2{
+#intro h2, h3{
     font-size: 2rem;
     margin-bottom: 20px;
+    font-size:3vw;
 }
 #hometwo{
     /*display: flex;*/
@@ -282,7 +283,7 @@ ul.no-bullets{
     padding-bottom: 50px;
 }
 .container5 img{
-    width: 600px;
+    width: 400px;
     height: auto;
     margin-top: 50px;
     display: block;
@@ -297,6 +298,7 @@ ul.no-bullets{
 .intro{
     padding-left: 500px;
     padding-right: 500px;
+    font-size:3vw;
 }
 
 
